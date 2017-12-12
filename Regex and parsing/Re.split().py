@@ -28,7 +28,7 @@ import re
 # get numbers 
 numbers = input()
 #split on any character that is not a number
-print(*re.split('[\-=~!@#$%^&*()_+\[\]{};\'\\:"|<,./<>?]',numbers), sep = '\n')
+print(*re.split('[\.,]+', numbers.strip(',.')), sep = '\n')
 ______________________________________________________________________________________________________
 '''
 *: the '*' at the beginning removes '[]'
