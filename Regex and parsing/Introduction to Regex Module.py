@@ -23,7 +23,7 @@ Explanation
 SomeRandomStuff: is not a number.
 -----------------------------------------------------------------------------------------------
 
-Solution:
+<h1>Solution</h1>:
 #regex library
 import re
 #Count how many inputs
