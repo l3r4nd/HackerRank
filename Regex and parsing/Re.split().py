@@ -20,7 +20,7 @@ Sample Output
 
 Note: Each line of output should only be the numbers. 
 '''
-
+______________________________________________________________________________________________________
 ## Solution:
 
 # import model
@@ -29,7 +29,7 @@ import re
 numbers = input()
 #split on any character that is not a number
 print(*re.split('[\-=~!@#$%^&*()_+\[\]{};\'\\:"|<,./<>?]',numbers), sep = '\n')
-
+______________________________________________________________________________________________________
 '''
 *: the '*' at the beginning removes '[]'
 [\-=~!@#$%^&*()_+\[\]{};\'\\:"|<,./<>?]: special characters defined to split on
