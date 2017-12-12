@@ -32,7 +32,7 @@ quantity = int(input())
 #Create a for loop to iterate over qauntity
 for index in range(quantity):
     #Create regex expression that catches numbers only and gives out True for numbers else False
-    print(bool(re.match(r'[-+]*[0-9]\.[0-9]+$', input())))
+    print(bool(re.match(r'[-+]?[0-9]*\.[0-9]+$', input())))
 
 '''
 [-+] : says it can start with - or +
